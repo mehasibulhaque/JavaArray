@@ -1,0 +1,13 @@
+import java.util.Scanner;
+
+public class ComputeArea {
+    public static void main(String[] args) {
+        // area=3.1416 * r * r
+        Scanner input=new Scanner(System.in);
+        System.out.println("Enter a radius:");
+        int radius=input.nextInt();
+        double area;
+        area=3.1416 *radius*radius;
+        System.out.println("area="+area);
+    }
+}
